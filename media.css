@@ -1,0 +1,10 @@
+@media screen and (max-width: 666px){
+    body{
+        background-color: rgb(255, 255, 255);
+        margin:30px;
+    }
+
+    .conf_main{
+        width: 100%;
+}
+}
