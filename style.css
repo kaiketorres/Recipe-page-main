@@ -18,11 +18,8 @@
     src: url(assets/fonts/gascogne-serial-bold-db-maisfontes.08d8/gascogne-serial-bold-db.ttf);
 }
 
-body, html{
+body{
     background-color: #F3E5D7;
-    margin: 0;
-  min-height: 100%;
-  width: 100%;
 }
 
 .omelete{
@@ -37,14 +34,120 @@ main{
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    min-height: 200vh;
+    min-height: 100vh;
 }
 
 
 .conf_main{
     background-color: white;
     width: 570px;
-    height: 200px;
     padding: 30px;
     border-radius: 10px;
+}
+
+.conf_main h1{
+    font-family: 'gascogne';
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 35px;
+    color: #373634;
+}
+
+.conf_main h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #7C4331;
+    font-family: 'outfit';
+}
+
+
+
+.conf_main p{
+    font-family: 'outfit';
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #373634;
+}
+
+.main_preparation{
+    border-radius: 10px;
+    font-family: 'outfit';
+    padding: 15px;
+    background-color: #FFF7FC;
+}
+
+.main_preparation h3{
+    color: #8d3d5a;
+    margin: 0px 0px 15px 0px;
+}
+
+.main_preparation li{
+    color: #716967;
+    line-height: 30px;
+}
+
+.main_preparation samp{
+    font-weight: bold;
+    font-family: 'outfit';
+    color: #5D5351;
+}
+
+.main_ingredients{
+    font-family: 'outfit';
+    color: #716967;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.main_instructions li{
+    font-family: 'outfit';
+    margin-left: 15px;
+    margin-bottom: 10px;
+    color: #716967;
+    font-size: 15px;
+}
+
+.main_instructions samp{
+    font-family: 'outfit';
+    color: #5D5351;
+    font-weight: bold;
+}
+
+.main_nutrition{
+    font-family: 'outfit';
+    color: #716967;
+}
+
+.main_nutrition p{
+    display: inline;
+}
+
+.main_nutrition samp{
+    font-family: 'outfit';
+    color: #7C4331;
+    font-weight: bold;
+}
+
+.main_nutrition div{
+    margin: 10px 10px 0px 0px;
+}
+
+a{
+    color: #7C4331;
+}
+
+.calories{
+    padding-right: 235px;
+}
+
+.carbs{
+    padding-right: 248px;
+}
+
+.protein{
+    padding-right: 240px;
+}
+
+.fat{
+    padding-right: 263px;
 }
