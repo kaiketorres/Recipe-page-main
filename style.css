@@ -44,7 +44,6 @@ main{
 .conf_main{
     background-color: white;
     width: 570px;
-    min-height: 100vh;
     padding: 30px;
     border-radius: 10px;
 }
